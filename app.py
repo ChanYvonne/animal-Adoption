@@ -1,5 +1,5 @@
 from flask import Flask, session, request, url_for, redirect, render_template
-from utils import auth, util
+import auth
 from os import urandom
 import json
 

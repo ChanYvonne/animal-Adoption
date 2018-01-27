@@ -10,14 +10,14 @@
         <form method="POST" action="/authenticate/">
             <input type="hidden" name="type" value="register" />
             <div class="input-group">
-                <span class="input-group-addon">@</span>
-                <input name="handle" type="text" class="form-control" placeholder="Twitter Handle" />
+                <span class="input-group-addon">🐾</span>
+                <input name="handle" type="text" class="form-control" placeholder="Username" />
             </div>
             <div class="input-group">
                 <span class="input-group-addon">
                     <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
                 </span>
-                <input name="pass1" type="password" class="form-control" placeholder="Password for Quenchr" />
+                <input name="pass1" type="password" class="form-control" placeholder="Password" />
             </div>
             <div class="input-group">
                 <span class="input-group-addon">
@@ -34,14 +34,14 @@
         <form method="POST" action="/authenticate/">
             <input type="hidden" name="type" value="login" />
             <div class="input-group">
-                <span class="input-group-addon">@</span>
-                <input name="handle" type="text" class="form-control" placeholder="Twitter Handle" />
+                <span class="input-group-addon">🐾</span>
+                <input name="handle" type="text" class="form-control" placeholder="Username" />
             </div>
             <div class="input-group">
                 <span class="input-group-addon">
                     <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
                 </span>
-                <input name="pass" type="password" class="form-control" placeholder="Password for Quenchr" />
+                <input name="pass" type="password" class="form-control" placeholder="Password" />
             </div>
             <button class="btn btn-success" type="submit">Login</button>
             {{logerror}}
