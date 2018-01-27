@@ -1,0 +1,16 @@
+body {
+    background-color: linen;
+}
+.well {
+    /*background-color: #00ccaa;*/
+    background-color: #DAF7A6;
+}
+nav.navbar {
+    margin-top: 15px;
+    background-color: #DAF7A6;
+}
+
+#logout{
+  text-align:right;
+  padding-top: 2mm;
+}
